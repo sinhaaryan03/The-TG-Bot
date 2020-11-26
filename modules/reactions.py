@@ -16,7 +16,6 @@ emojis = {
     "sad": "⊙︿⊙",
     "lenny": "( ͡°( ͡° ͜ʖ( ͡° ͜ʖ ͡°)ʖ ͡°) ͡°)",
     "idc": "¯\_(ツ)_/¯"
-    "fuck": "Lund lele mera"
 }
 
 unpacked_emojis = ""
