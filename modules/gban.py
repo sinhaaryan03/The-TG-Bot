@@ -11,7 +11,7 @@ async def ungban(event):
     user = await get_user(event)
     if user is None:
         return await event.edit(f"`Who do you want me to {cmd}!?`")
-    await event.edit("`Globally {}ning this person..`".format(cmd.replace("g", "")))
+    await event.edit("`Iski Behen ki lodi hai yaar,  {}ning this person Globally...`".format(cmd.replace("g", "")))
     chats = await editperms(user, view_messages=False) if cmd == "gban" else await editperms(user)
     mention = await fulluser(user)
     await event.edit("**{0}ned** {1} **in** {2} **chats!**".format(
@@ -26,7 +26,7 @@ async def ungban(event):
     user = await get_user(event)
     if user is None:
         return await event.edit(f"`Who do you want me to {cmd}!?`")
-    await event.edit("`Globally {}ing this person..`".format(cmd.replace("g", "").strip("e")))
+    await event.edit("`lund lele mera bsdk Globally {}ing this person..`".format(cmd.replace("g", "").strip("e")))
     chats = await editperms(user, send_messages=False) if cmd == "gmute" else await editperms(user)
     mention = await fulluser(user)
     await event.edit("**{0}d** {1} **in** {2} **chats!**".format(

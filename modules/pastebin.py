@@ -56,7 +56,7 @@ async def handler(event):
 
 ENV.HELPER.update({
     "pastebin": "\
-```.paste (as a reply to the msg you want to paste)```\
+```.paste (as a reply to the msg you want to paste) Very Helpful For Devs xD```\
 \nUsage: Pastes the target message to del.dog.\
 "
 })

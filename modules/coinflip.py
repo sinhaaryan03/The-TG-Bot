@@ -16,16 +16,16 @@ async def handler(event):
         input_str = input_str.lower()
     if r % 2 == 1:
         if input_str == "heads":
-            await event.edit("**Heads**. \n You were correct.")
+            await event.edit("**Heads**. \n Tu sahi tha madarchod,firbhi me teri nahi sununga.")
         elif input_str == "tails":
-            await event.edit("**Heads**. \n Better luck next time!...")
+            await event.edit("**Heads**. \n Chal Bsdk me jeeta!...")
         else:
             await event.edit("**Heads**.")
     elif r % 2 == 0:
         if input_str == "tails":
-            await event.edit("**Tails**. \n You were correct.")
+            await event.edit("**Tails**. \n Tu sahi tha madarchod,firbhi me teri nahi sununga.")
         elif input_str == "heads":
-            await event.edit("**Tails**. \n Better luck next time!...")
+            await event.edit("**Tails**. \n Chal Bsdk me jeeta!...")
         else:
             await event.edit("**Tails**.")
     else:

@@ -16,10 +16,10 @@ async def handler(event):
         return
     reply_message = await event.get_reply_message()
     if not reply_message.media:
-        await event.edit("```Reply to a image/sticker.```")
+        await event.edit("```Are you retard,Reply to a Sticker/Msg.```")
         return
     file = await client.download_media(reply_message, ENV.DOWNLOAD_DIRECTORY)
-    await event.edit("```Memifying this image! (」ﾟﾛﾟ)｣ ```")
+    await event.edit("```Memifying this image! Abhi maja ayega na Bhidu (」ﾟﾛﾟ)｣ ```")
     text = str(event.pattern_match.group(1)).strip()
     if len(text) < 1:
         return await event.edit("You might want to try `.help memify`")

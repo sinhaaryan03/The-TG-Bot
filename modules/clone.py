@@ -1,5 +1,6 @@
 # For The-TG-Bot v3
 # By Priyam Kalra
+# Mod by Aryan Sinha
 
 from telethon.tl.functions.account import UpdateProfileRequest
 from telethon.tl.functions.photos import UploadProfilePhotoRequest, DeletePhotosRequest
@@ -16,11 +17,11 @@ async def clone(event):
         return
     inputArgs = event.pattern_match.group(1)
     if "-r" in inputArgs:
-        await event.edit("`Reverting to my true identity..`")
+        await event.edit("`Reverting to my true identity as phack..`")
         if not client.storage.userObj:
-            return await event.edit("`You need to clone a profile before reverting!`")
+            return await event.edit("`You need to clone a profile before reverting bsdk !`")
         await updateProfile(client.storage.userObj, reset=True)
-        await event.edit("`Feels good to be back.`")
+        await event.edit("`Feels good to be back. Jisko Clone kia wo to chutiya tha`")
         return
     elif "-d" in inputArgs:
         client.storage.userObj = False
@@ -30,9 +31,9 @@ async def clone(event):
         client.storage.userObj = await event.client(GetFullUserRequest(event.from_id))
     logger.info(client.storage.userObj)
     userObj = await getUserObj(event)
-    await event.edit("`Stealing this random person's identity..`")
+    await event.edit("`Stealing this chutiya person's identity..`")
     await updateProfile(userObj)
-    await event.edit("`I am you and you are me.`")
+    await event.edit("`I am you and you are me bsdk, jo ukhadna hai ukhadle .`")
 
 
 async def updateProfile(userObj, reset=False):

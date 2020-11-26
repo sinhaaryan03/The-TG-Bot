@@ -16,7 +16,7 @@
     Telegram Team deleted your account?
     And after that, you pointed your fingers at us
     for getting your acoount deleted?
-    I will be rolling on the floor laughing at you.
+    I will be rolling on the floor laughing at you. In shor GTFO
 ///
 ```
 
@@ -56,7 +56,7 @@ pip install virtualenv
 ## Connecting to your Telegram Account
 
 ```
-git clone https://github.com/justaprudev/The-TG-Bot
+git clone https://github.com/techyminati/The-TG-Bot
 cd The-TG-Bot
 python3 -m session
 ```
@@ -70,7 +70,7 @@ python3 -m session
 
 #### The Easy Way
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/justaprudev/The-TG-Bot/tree/heroku)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/techyminati/The-TG-Bot/tree/heroku)
 
 - Hit the "Deploy to Heroku" button and enter APP ID, API HASH and phone number conntected to your telegram account
 - Enter the session copied while connecting your telegram account
@@ -89,7 +89,7 @@ python3 -m session
 - After the process is completed, try running .alive on telegram
 
 ```
-git clone https://github.com/justaprudev/The-TG-Bot
+git clone https://github.com/techyminati/The-TG-Bot
 cd The-TG-Bot
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
@@ -121,6 +121,7 @@ async def handler(event):
 
 ## Credits
 
+- [Priyam Kalra](https://github.com/justaprudev) (the main Dev)
 - [Telethon](https://github.com/LonamiWebs/Telethon) (Obviously)
 - [Uniborg](https://github.com/SpEcHiDe/UniBorg) (The core)
 - [FTG modules repo](https://github.com/friendly-telegram/modules-repo)

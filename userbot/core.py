@@ -146,12 +146,12 @@ async def help(event):
 async def alive(event):
     if event.fwd_from:
         return
-    await event.edit("**// The-TG-Bot v3 is running //**\n**// Fetching userbot information //**")
+    await event.edit("**// The-TG-Bot v3 [MOD v1.0] is running //**\n**// Fetching userbot information //**")
     uname = platform.uname()
     username = f"\nUser: `@{me.username}\n"
     memory = psutil.virtual_memory()
     specs = f"`System: {uname.system}\nRelease: {uname.release}\nVersion: {uname.version}\nProcessor: {uname.processor}\nMemory [RAM]: {get_size(memory.total)}`"
-    help_string = f"**// The-TG-Bot v3 is running //**\n\n**General Info:**\n`Build Version: {build} {username}`Github Repository: `{ENV.GITHUB_REPO_LINK}\n\n**System Specifications:**\n{specs}\n```Python: {sys.version}```\n```Telethon: {__version__}```\n\n**Contact developer:** [Priyam Kalra](https://t.me/justaprudev) \n**Update channel:** [Join](https://t.me/The_TG_Bot) \n**Support group:** [Join](https://t.me/The_TG_Bot_Support)"
+    help_string = f"**// The-TG-Bot Mod v1 is running as phast as phack //**\n\n**General Info for Nibbas:**\n`Bleed Version: {build} {username}`Githoob Repository: `{ENV.GITHUB_REPO_LINK}\n\n**System Specifications (Gey AF Heroku):**\n{specs}\n```Python: {sys.version}```\n```Telethon: {__version__}```\n\n**Core Developer:** [Priyam Kalra aka Didi](https://t.me/justaprudev) \n**Modded By:** [Aryan Sinha](https://t.me/techyminati) \n**Plox Join Support:** [Join](https://t.me/The_TG_Bot_Support)"
     await client.send_file(
         event.chat_id,
         caption=help_string,
@@ -171,8 +171,8 @@ async def _restart(message):
         heroku = heroku3.from_key(ENV.HEROKU_API_KEY)
         app = heroku.apps()[ENV.TG_APP_NAME]
         app.restart()
-        return await message.edit("```The-TG-Bot v3 has been updated and the heroku app has been restarted, it should be back online in a few seconds.```")
-    await message.edit("```The-TG-Bot v3 has been restarted.\nTry .alive or .ping to check if its alive.```")
+        return await message.edit("```The-TG-Bot v1 Mod has been updated and warmking phast as phack, it should be back online in a few seceends plox.```")
+    await message.edit("```The-TG-Bot Mod v1 has been restarted.\nTry .alive or .ping to check if its alive or ded.```")
     client.sync(restart)  # await restart() random crash workaround
 
 

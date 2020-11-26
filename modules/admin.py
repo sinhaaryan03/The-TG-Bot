@@ -23,7 +23,7 @@ async def handler(event):
             except:
                 rank = None
         else:
-            return await event.edit("`You deserve a demotion!`")
+            return await event.edit("`You deserve a demotion lawde!`")
     try:
         await client.edit_admin(event.chat_id, user,
             is_admin=True, title=rank, ban_users=False, add_admins=False)
@@ -43,7 +43,7 @@ async def handler(event):
     else:
         try:
             await client.edit_admin(event.chat_id, user, is_admin=False)
-            await event.edit(f"Oh boy, {await user_entity(user)} has been demoted!")
+            await event.edit(f"Chal bsdk, {await user_entity(user)} you have been demoted!")
         except (Exception) as exc:
             await event.edit(str(exc))
 
@@ -118,14 +118,14 @@ async def handler(event):
     if not participant:
         return await event.edit(NO_USER.format("kick"))
     elif participant == "me":
-        await event.edit("`Sayonara, cruel world!`")
+        await event.edit("`Sed Plox!`")
         await client.kick_participant(event.chat_id, "me")
     elif participant in ENV.SUDO_USERS:
         return await event.edit(SUDO_STR)
     else:
         try:
             await client.kick_participant(event.chat_id, participant)
-            await event.edit(f"{await user(participant)} has been yeeted!")
+            await event.edit(f"{await user(participant)} Chala Gya Bsdk!")
         except (Exception) as exc:
             await event.edit(str(exc))
 
@@ -145,7 +145,7 @@ async def handler(event):
         except Exception as error:
             await event.edit(str(error))
     else:
-        return await event.edit("`Reply to a message to pin it.`")
+        return await event.edit("`Reply to a message to pin it lawde.`")
 
 
 # Helpers

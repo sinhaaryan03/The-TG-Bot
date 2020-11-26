@@ -126,10 +126,10 @@ async def on_new_message(event):
 ENV.HELPER.update({
     "lydia": "\
 ```.enableai (as a reply to target user)```\
-\nUsage: Enables LydiaAI for the target user in the current chat.\
+\nUsage: Enables LydiaAI for the target user in the current chat ( Enable this only if you are gay.\
 \n\n```.disableai (as a reply to target user)```\
 \nUsage: Disables LydiaAI for the target user in the current chat.\
 \n\n```.listai```\
-\nUsage: Lists all users on which LydiaAI is enabled.\
+\nUsage: Lists all users on which GayLydiaAI is enabled.\
 "
 })

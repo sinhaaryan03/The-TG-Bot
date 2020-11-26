@@ -224,7 +224,7 @@ async def handler(event):
                         ))
                     except Exception as e:
                         await event.reply(
-                            "I don't seem to have ADMIN permission here. \n`{}`".format(
+                            "I don't seem to have ADMIN permission here Sed Plox. \n`{}`".format(
                                 str(e))
                         )
                         update_lock(event.chat_id, "bots", False)

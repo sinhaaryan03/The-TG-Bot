@@ -31,9 +31,9 @@ async def handler(event):
     if event.fwd_from:
         return
     if not event.is_reply:
-        await event.edit("Reply to a photo/sticker to kang it.")
+        await event.edit("Are you retard, Reply to a Pic/Sticker man")
         return
-    await event.edit("```Using a crack in the fabric of time to kang this sticker...```")
+    await event.edit("```Kanging This Sticker as phast as Phack```")
     reply_message = await event.get_reply_message()
     sticker_emoji = "🔥"
     pack_id = ""
@@ -135,7 +135,7 @@ async def handler(event):
             await silently_send_message(bot_conv, sticker_emoji)
             await silently_send_message(bot_conv, "/done")
 
-    await event.edit(f"Sticker successfully kanged to [{packname}](t.me/addstickers/{packshortname})!")
+    await event.edit(f"Sticker successfully Phacked to [{packname}](t.me/addstickers/{packshortname})!, now GTFO Bich")
 
 
 @client.on(events("packinfo"))

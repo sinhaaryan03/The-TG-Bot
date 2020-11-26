@@ -8,15 +8,15 @@ import random
 import sys
 import time
 
-insult_strings = ("Owww ... Such a stupid idiot.",
-    "Don't drink and type.",
-    "I think you should go home or better a mental asylum.",
-    "Command not found. Just like your brain.",
-    "Do you realize you are making a fool of yourself? Apparently not.",
-    "You can type better than that.",
+insult_strings = ("Chala ja Bhosdike .",
+    "Lund lele mera muh me ",
+    "Lawda le mera lawda .",
+    "You are Gay as Phack Why dont use some common sense.",
+    "Chal BSDK",
+    "Beta majdoor ko khodna aur baap ko chodna nahi sikhate",
     "Bot rule 544 section 9 prevents me from replying to stupid humans like you.",
-    "Sorry, we do not sell brains.",
-    "Believe me you are not normal.",
+    "Bro, You are gay.",
+    "Believe me you are not normal you are gay as phack.",
     "I bet your brain feels as good as new, seeing that you never use it.",
     "If I wanted to kill myself I'd climb your ego and jump to your IQ.",
     "Zombies eat brains... you're safe.",

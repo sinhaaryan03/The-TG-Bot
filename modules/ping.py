@@ -12,7 +12,7 @@ async def handler(event):
     await event.edit("Pong!")
     end = datetime.now()
     ms = (end - start).microseconds / 1000
-    await event.edit("Pong!\n{}".format(ms))
+    await event.edit("Pong! - You Internet is Phast as Phak \n{}".format(ms))
 
 
 ENV.HELPER.update({

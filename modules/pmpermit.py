@@ -9,9 +9,9 @@ from telethon.tl import functions, types
 
 client.storage.PM_WARNS = {}
 client.storage.PREV_REPLY_MESSAGE = {}
-BAALAJI_TG_USER_BOT = "```My Master hasn't approved you to PM.```"
+BAALAJI_TG_USER_BOT = "```My Master hasn't approved you to PM. STOPP```"
 TG_COMPANION_USER_BOT = "```Wait for my masters response.\nDo not spam his pm if you do not want to get blocked.```"
-THETGBOT_USER_BOT_WARN_ZERO = "```Blocked! Thanks for the spam.```"
+THETGBOT_USER_BOT_WARN_ZERO = "```Iski Behen ki laudi hai yaar, kitna spam karega, This is me my Masters Userbot & I've Blocked You Get the Fuck Out.```"
 THETGBOT_USER_BOT_NO_WARN = "\
 ```Bleep blop! This is a bot. Don't fret.\
 \nMy master hasn't approved you to PM.\
