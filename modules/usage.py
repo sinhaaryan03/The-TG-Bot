@@ -64,7 +64,7 @@ async def usage(message):
                        f"     •  `{AppHours}`**h**  `{AppMinutes}`**m**  "
                        f"**|**  [`{AppPercentage}`**%**]"
                        "\n"
-                       " -> `Dyno hours quota remaining this month`:\n"
+                       " -> `Dyno hours quota remaining this month #TG-Bot-Mod-v1`:\n"
                        f"     •  `{hours}`**h**  `{minutes}`**m**  "
                        f"**|**  [`{percentage}`**%**]")
 

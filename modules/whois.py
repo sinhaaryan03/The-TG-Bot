@@ -46,14 +46,14 @@ async def handler(event):
         dc_id = "Need a Profile Picture to check **this**"
         location = str(e)
     caption = """ID: <code>{}</code>
-Name: <a href='tg://user?id={}'>{}</a>
-Bio: {}
+Rendi's Name: <a href='tg://user?id={}'>{}</a>
+Rendi's Bio: {}
 DC ID: {}
 Number of PPs: {}
 Restricted: {}
-Verified: {}
-Bot: {}
-Groups in Common: {}
+Verified Gay: {}
+Noob: {}
+Groups in Common with this Gay: {}
 """.format(
         user_id,
         user_id,

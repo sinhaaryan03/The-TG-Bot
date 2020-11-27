@@ -11,7 +11,7 @@ emojis = {
     "amazed": "ヾ(o✪‿✪o)ｼ",
     "crying": "༎ຶ‿༎ຶ",
     "dicc": "╰U╯☜(◉ɷ◉ )",
-    "fek": "╰U╯\n(‿ˠ‿)",
+    "rm": "Madhav Sheth Madarchod",
     "ded": "✖‿✖",
     "sad": "⊙︿⊙",
     "lenny": "( ͡°( ͡° ͜ʖ( ͡° ͜ʖ ͡°)ʖ ͡°) ͡°)",
