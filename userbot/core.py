@@ -151,7 +151,7 @@ async def alive(event):
     username = f"\nUser: `@{me.username}\n"
     memory = psutil.virtual_memory()
     specs = f"`System: {uname.system}\nRelease: {uname.release}\nVersion: {uname.version}\nProcessor: {uname.processor}\nMemory [RAM]: {get_size(memory.total)}`"
-    help_string = f"**// The-TG-Bot Extended is Up & Running //**\n\n**General Information :**\n`Build Number: Extended Beta`Github Repo: `{ENV.GITHUB_REPO_LINK}\n\n**System Specs (Heroku):**\n{specs}\n```Python: {sys.version}```\n```Telethon: {__version__}```\n\n**Core Developer:** [Priyam Kalra](https://t.me/justaprudev) \n**Extended Support By:** [Aryan Sinha](https://t.me/techyminati) \n**Join The Support:** [Join](https://t.me/The_TG_Bot_Support)"
+    help_string = f"**// The-TG-Bot Extended is Up & Running //**\n\n**General Information :**\n`Build Number`: Extended Beta \nGithub Repo: `{ENV.GITHUB_REPO_LINK}\n\n**System Specs (Heroku):**\n{specs}\n```Python: {sys.version}```\n```Telethon: {__version__}```\n\n**Core Developer:** [Priyam Kalra](https://t.me/justaprudev) \n**Extended Support By:** [Aryan Sinha](https://t.me/techyminati) \n**Join The Support:** [Join](https://t.me/The_TG_Bot_Support)"
     await client.send_file(
         event.chat_id,
         caption=help_string,
