@@ -11,7 +11,7 @@ pySmartDL
 regex
 requests
 speedtest-cli
-sqlalchemy
+SQLAlchemy==1.4.x
 asyncurban
 oauth2client
 google-api-python-client
