@@ -33,7 +33,7 @@ async def handler(event):
     if not event.is_reply:
         await event.edit("Are you retard, Reply to a Pic/Sticker man")
         return
-    await event.edit("```Kanging This Sticker as phast as Phack```")
+    await event.edit("```Roses are read, Violets are Blue, Kanging this stimker so my Pacc Looks Cool !```")
     reply_message = await event.get_reply_message()
     sticker_emoji = "🔥"
     pack_id = ""
@@ -135,7 +135,7 @@ async def handler(event):
             await silently_send_message(bot_conv, sticker_emoji)
             await silently_send_message(bot_conv, "/done")
 
-    await event.edit(f"Sticker successfully Phacked to [{packname}](t.me/addstickers/{packshortname})!, now GTFO Bich")
+    await event.edit(f"Sticker successfully Stealed to [{packname}](t.me/addstickers/{packshortname})!, Yey! ")
 
 
 @client.on(events("packinfo"))

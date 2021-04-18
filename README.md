@@ -16,7 +16,8 @@
     Telegram Team deleted your account?
     And after that, you pointed your fingers at us
     for getting your acoount deleted?
-    I will be rolling on the floor laughing at you. In shor GTFO
+    I will be rolling on the floor laughing at you.
+   In short, We ain't responsible if you get banned by telegram by your retarded acts
 ///
 ```
 

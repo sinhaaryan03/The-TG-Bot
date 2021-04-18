@@ -8,7 +8,7 @@ from telethon.tl.types import ChannelParticipantsAdmins, ChannelParticipantAdmin
 async def handler(event):
     if event.fwd_from:
         return
-    mentions = "Look at these Gay admemes who havent banned me yet:\n"
+    mentions = "Look at these Gae admemes who havent banned me yet:\n"
     should_mention_admins = False
     reply_message = None
     pattern_match_str = event.pattern_match.group(1)

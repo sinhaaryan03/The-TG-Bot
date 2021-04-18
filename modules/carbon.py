@@ -13,7 +13,7 @@ themes = [
 
 @client.on(events("carbon ?(.*)"))
 async def carbonize(e):
-    await e.edit("`Carbon bana raha hu Behenchod,G@@nd me ghus jao insan ki..`")
+    await e.edit("`Hehehe, Meking Carbon , Semx AF..`")
     args = e.pattern_match.group(1)
     text = "%20".join(args.split()[:-1])
     theme = args.split()[-1]
@@ -23,14 +23,14 @@ async def carbonize(e):
     try:
         await client.send_file(
             e.chat_id,
-            caption="@The_TG_Bot-MOD@techyminati",
+            caption="@The_TG_Bot-Extended@techyminati",
             file=requests.get(
                 f"https://sjprojectsapi.herokuapp.com/carbon/?text={text}&theme={theme}&bg=black").json()['link'],
             force_document=False
         )
         await e.delete()
     except Exception:
-        await e.edit("`API down hai re gaadu,wait kar`")
+        await e.edit("`Seems like API of rarted servers is down `")
 
 
 ENV.HELPER.update({

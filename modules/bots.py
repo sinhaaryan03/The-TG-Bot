@@ -9,7 +9,7 @@ from telethon.tl.types import ChannelParticipantAdmin, ChannelParticipantsBots
 async def handler(event):
     if event.fwd_from:
         return
-    mentions = "**Ye rahe madarcheuqxx Bots in this Channel**: \n"
+    mentions = "**There are these rarted bots in Channel**: \n"
     input_str = event.pattern_match.group(1)
     to_write_chat = await event.get_input_chat()
     chat = None

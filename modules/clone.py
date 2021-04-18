@@ -17,11 +17,11 @@ async def clone(event):
         return
     inputArgs = event.pattern_match.group(1)
     if "-r" in inputArgs:
-        await event.edit("`Reverting to my true identity as phack..`")
+        await event.edit("`Reverting to my true identity as this person is gey `")
         if not client.storage.userObj:
-            return await event.edit("`You need to clone a profile before reverting bsdk !`")
+            return await event.edit("`You need to clone a profile before reverting bruhhh!`")
         await updateProfile(client.storage.userObj, reset=True)
-        await event.edit("`Feels good to be back. Jisko Clone kia wo to chutiya tha`")
+        await event.edit("`Feels good to be back. The person I cloned was gae`")
         return
     elif "-d" in inputArgs:
         client.storage.userObj = False
@@ -31,9 +31,9 @@ async def clone(event):
         client.storage.userObj = await event.client(GetFullUserRequest(event.from_id))
     logger.info(client.storage.userObj)
     userObj = await getUserObj(event)
-    await event.edit("`Stealing this chutiya person's identity..`")
+    await event.edit("`Stealing this rarted person's identity..`")
     await updateProfile(userObj)
-    await event.edit("`I am you and you are me bsdk, jo ukhadna hai ukhadle .`")
+    await event.edit("`I am you and you are me nigger , jo ukhadna hai ukhadle .`")
 
 
 async def updateProfile(userObj, reset=False):

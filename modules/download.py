@@ -18,7 +18,7 @@ from telethon.errors.rpcerrorlist import MessageNotModifiedError
 async def handler(event):
     if event.fwd_from:
         return
-    mone = await event.edit("Downloading ho rahi hai bsdk...")
+    mone = await event.edit("Downloamding file, hemhe ")
     input_str = event.pattern_match.group(1)
     if not os.path.isdir(ENV.DOWNLOAD_DIRECTORY):
         os.makedirs(ENV.DOWNLOAD_DIRECTORY)
@@ -81,11 +81,11 @@ async def handler(event):
         end = datetime.now()
         ms = (end - start).seconds
         if downloader.isSuccessful():
-            await mone.edit("Downloaded to `{}` in {} seconds.".format(downloaded_file_name, ms))
+            await mone.edit("Downloaded to TG-BOT-Extended Database `{}` in {} seconds.".format(downloaded_file_name, ms))
         else:
             await mone.edit("Incorrect URL\n {}".format(input_str))
     else:
-        await mone.edit("Reply to a message to download to my local server kya chutiya aadmi ho tum yaar.")
+        await mone.edit("Reply to a message to download to my local server Bruh, using brains wen?")
 
 
 ENV.HELPER.update({

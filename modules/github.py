@@ -26,7 +26,7 @@ async def handler(event):
         bio = b["bio"]
         created_at = b["created_at"]
         text = """
-Nibbe ka Naam: [{}]({})
+Nigger's Name : [{}]({})
 Type: {}
 Company: {}
 Blog: {}
