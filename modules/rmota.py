@@ -19,7 +19,7 @@ async def handler(event):
         await event.edit("**ERROR: Please enter a valid device model name!**")
         return
     username = "@realmeupdaterbot"
-    await event.edit(f"```Looking for latest OTA for {model}...```")
+    await event.edit(f"```Looking for latest realmeUI OTA for {model}...```")
 
     async with client.conversation(username) as bot_conv:
         if True:
@@ -44,6 +44,6 @@ async def silently_send_message(conv, text):
 ENV.HELPER.update({
     "rmota": "\
 ```.rmota <device_model>```\
-\nUsage: Returns latest update info for specified device.\nUses @Realme_3ProBot to get update information.\
+\nUsage: Returns latest update info for specified device.\nUses realmemeUI Community Bot to get update information.\
 "
 })
